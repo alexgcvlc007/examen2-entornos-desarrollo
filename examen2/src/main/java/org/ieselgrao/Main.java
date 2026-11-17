@@ -1,8 +1,10 @@
+
 package org.ieselgrao;
 
+import com.diogonunes.jcdp.color.ColoredPrinter;
+import com.diogonunes.jcdp.color.api.Ansi;
 import net.datafaker.Faker;
-import com.diogonunes.jcolor.ColoredPrinter;
-import com.diogonunes.jcolor.Ansi;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -18,5 +20,4 @@ public class Main {
             cp.println("Dirección: " + streetAddress, Ansi.Attribute.NONE, Ansi.FColor.BLACK, Ansi.BColor.GREEN);
         }
     }
-}
-}
+    }

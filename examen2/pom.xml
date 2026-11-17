@@ -24,11 +24,12 @@
             <scope>compile</scope>
         </dependency>
 
-        <!-- Dependencia de JCDP (Colores) -->
+        <!-- Source: https://mvnrepository.com/artifact/com.diogonunes/JCDP -->
+        <!-- Source: https://mvnrepository.com/artifact/com.diogonunes/JCDP -->
         <dependency>
             <groupId>com.diogonunes</groupId>
-            <artifactId>JColor</artifactId>
-            <version>6.0.0</version>
+            <artifactId>JCDP</artifactId>
+            <version>4.0.2</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
